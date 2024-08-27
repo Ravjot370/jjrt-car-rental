@@ -1,0 +1,465 @@
+                /*HOME*/
+*{
+    padding:0px;
+    margin:0px; 
+    box-sizing:box;
+}
+                   /*navigation*/
+.nav-img-a{
+    height:35px;
+    width:100px;
+    margin-top:-2px;
+    margin-left:-530px;
+ 
+}
+#navbar{
+    background-color:black;
+    height:45px;
+    width:1000px;
+    padding-left:700px;
+    padding-top:6px;
+   
+}
+#nav-ul{
+    margin-top:-37px;
+}
+.nav-li{
+    display:inline;
+    margin-left:50px;
+}
+.nav-a{
+     text-decoration:none;
+     font-size:25px;
+     color:rgb(250, 248, 248);   
+     transition:all 0 0 1 linear;
+}
+.nav-a:hover{
+     text-decoration-line:underline;
+}
+             /*Navigation end*/
+
+#vedio{
+    width:100%;
+    height:700px;
+    margin-top:-1px;
+}
+
+.type-text{
+    font-size:40px;
+    letter-spacing:10px;
+    font-family:monospace;
+    border-right:5px solid;
+    white-space:nowrap;
+    overflow:hidden;
+}
+#welcome{
+     font-size:80px;
+     color:red;
+    /* position:absolute;
+     top:200px;
+     left:200px;*/
+    
+}
+             
+            
+              /*starting footer part*/
+#footer-box{
+    width:100%;
+    height:auto;
+    box-sizing:border-box;
+    background-color:black;
+    margin-top:-4px;
+}
+#upper-margin{
+    padding-top:20px;
+    padding-bottom:20px;
+}
+#help{
+    width:680px;
+    position:absolute;
+    left:900px;
+}
+#icon{
+    width:400px;
+    margin-left:30px;
+}
+#get-h{
+    color:white;
+    font-family:Lucidatypewriter;
+    font-size:20px;
+    
+}
+#icon-h{
+    color:white;
+    font-family:Lucidatypewriter;
+    font-size:22px;
+    margin-top:-5px;
+}
+#help-ul{
+    margin-left:-30px;
+}
+.help-li{
+    display:inline;
+    margin-left:30px;
+    position:relative;
+    top:-20px;
+}
+.help-a{
+    text-decoration:none;
+    color:white;
+    font-size:25px;
+    
+}
+#icon-h{
+    color:white;
+}
+.icon-li{
+    display:inline;
+}
+.icon-img{
+    height:50px;
+    width:50px;
+}
+#space
+{
+margin-left:370px;}
+
+#jjrt{
+    margin-left:50px;
+}
+.jjrt-li{
+    display:inline;
+}
+.jjrt-img{
+    height:150px;
+    width:150px;
+    margin-left:10px;
+}
+#copyright-h{
+       color:white;
+       font-weight:lighter;
+       margin-left:80px;
+	   font-size : 15px;
+}
+           /*Dashboard*/
+#dash{
+    height:500px;
+    width:100%;
+}
+#choose{
+     font-size:50px;
+     margin-left:30px;
+     font-family:cursive;
+     margin-top:20px;
+     color:rgb(108, 14, 14);
+     margin-bottom:-20px;
+}
+#logo{
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+  font-size:16px;
+}
+.boxes{
+    height:240px;
+    width:520px;
+    border:1px solid black;
+    box-shadow:0px 0px 2px black inline;
+    margin-left:20px;
+    border-radius:20px;
+    padding:20px;
+}
+
+#firstrow{
+    display:flex;
+    margin-top:90px;
+}
+#secondrow{
+    display:flex;
+    margin-top:50px;
+}
+#thirdrow{
+    display:flex;
+    margin-top:50px;
+}
+#fourthrow{
+    display:flex;
+    margin-top:50px;
+}
+.dash-h1{
+ font-size:24px;
+ font-family:cursive;
+}
+.dash-h2{
+    font-size:20px;
+    margin-top:15px;
+    font-weight:lighter;
+}
+.men-logo{
+    height:32px;
+    width:32px;
+    margin-top:20px;
+    margin-left:0px;
+}
+.seat{
+    position:relative;
+    top:-10px;
+    left:10px;
+   font-size:17px; 
+}
+.speed-logo{
+    height:37px;
+    width:37px;
+    margin-left:0px;
+    margin-top:0px;
+   
+}
+.speed{
+    position:relative;
+    top:-8px;
+    font-size:15px; 
+}
+.dash-h5{
+    margin-top:20px;
+}
+.car-div{
+     /*border:1px solid red;*/
+     width:270px;
+     height:200px;
+     position:relative;
+     top:-210px;
+     left:250px;
+}
+.cars{
+    height:250px;
+    width:280px;
+    position: relative;
+    top:-40px;
+    left:-10px;  
+    border-radius:20px;
+    box-shadow:50px 80px 60px inset black;
+}
+.brand-name{
+     font-size:40px;
+     font-weight:bold;
+     color:rgb(108, 14, 14);
+     font-family:Lucida Handwriting;
+     position: relative;
+     top:-70px;
+     left:15px;
+     width:300px;
+     padding-left:40px;
+     padding-right:40px;
+     box-shadow:20px 20px 20px inset black;
+     transition:all 1s 1s 1s ease-in-out;
+}
+.brand-name:hover{
+    position: relative;
+    top:-65px;
+    left:10px;
+    cursor:crosshair;
+}
+.next-previous{
+    color:black;
+    text-decoration:none;
+    
+}
+#next-a{
+    height:29px;
+    width:120px;
+    border-radius:10px;
+    border:none;
+    box-shadow:3px 3px 4px inset black;
+    color:black;
+    margin-top:40px;
+    margin-bottom:30px;
+    margin-left:520px;
+    cursor:pointer;
+}
+#next{
+    height:29px;
+    width:120px;
+    border-radius:10px;
+    border:none;
+    box-shadow:3px 3px 4px inset black;
+    color:black;
+    margin-top:40px;
+    margin-left:15px;
+    margin-bottom:30px;
+    cursor:pointer;
+}#preivous{
+    height:29px;
+    width:120px;
+    border-radius:10px;
+    border:none;
+    box-shadow:3px 3px 4px inset black;
+    color:black;
+    margin-top:40px;
+    margin-left:450px;
+    margin-bottom:30px;
+    cursor:pointer;
+}
+        /*Sign up*/
+
+.main-login{
+    position:absolute;
+    top:-80px;
+    left:-180px;
+}
+#login-h2{
+   position:absolute;
+   top:190px;
+   left:390px;
+   font-size:40px;
+   color:white;
+}
+.form{
+    position:absolute;
+    top:160px;
+    left:365px;
+    height:400px;
+    width:350px;
+    border:2px solid white;
+    border-radius:0px 10px 10px 10px;
+    padding-top:100px;
+    padding-left:50px;
+    box-sizing:border-box;
+    box-shadow:10px 10px 2px inset black;
+}
+input{
+    padding-left:4px;
+    height:20px;
+    width:280px;
+    background-color:transparent;
+    border-top:none;
+    border-left:none;
+    border-right:none;
+    border-bottom:2px solid white;
+}
+#mail-logo{
+    height:28px;
+    width:28px;
+    position:absolute;
+    top:116px;
+    left:306px;
+}
+#padlock-logo{
+    height:28px;
+    width:28px;
+    position:absolute;
+    top:196px;
+    left:305px;
+}
+label{
+    font-size:20px;
+    font-weight:bold;
+    color:white;
+}
+a{
+   text-decoration:none;
+   color:white;
+   text-decoration-line:underline;
+   margin-left:4px;
+}
+#sign-h3{
+    font-size:16px;
+    font-weight:lighter;
+    margin-left:20px;
+}
+#forget{
+    font-size:12px;
+}
+#checkbox{
+        position:relative;
+        top:22px;
+        left:1px;
+        height:15px;
+        width:15px;
+}
+#submit-button{
+    margin-top:18px;
+    margin-left:40px;
+    background-color:black;
+    color:white;
+    height:29px;
+    width:190px;
+    font-size:20px;
+    font-family:sans-serif;
+    border-radius:5px;
+}
+#sign-h4{
+    margin-top:18px;
+    margin-left:15px;
+}
+#background-login{
+    height:560px;
+    width:100%;
+    
+}
+.login-li{
+   text-decoration:none;
+   color:white;
+   font-weight:bolder;
+   text-shadow:22px 7px 2px black;
+   transition: all 0s 0s  0s linear;
+}
+.login-li:hover{
+    color:black;
+    text-shadow:22px 7px 2px white;
+}
+#sign-li{
+    display:inline;
+    margin-left:50px;
+}
+#sign-ul{
+    margin-top:-10px;
+    margin-left:450px;
+    list-style:none;
+}
+#sign-a{
+    font-size:20px;
+    border:1px solid black;
+    border-radius:5px;
+    width:50px;
+    padding-top:2px; 
+    padding-right:6px;
+    padding-bottom:2px;
+    padding-left:6px;
+    box-shadow:2px 2px 5px inset black;
+}
+.navbar-login{
+     position:absolute;
+     top:20px;
+     left:30px;
+     font-size:20px;     
+}
+                    /*Contact us*/
+#get-touch{
+    color:black;
+    font-size:30px;
+    font-family:lucida;
+}
+.contact-middle{
+  position: relative;
+  top:110px;
+  left:30px;
+  width:400px;
+}
+#shape{
+  height: 391px;
+  width:70%;
+  position: relative;
+  top:-296px;
+  left:350px;
+  clip-path: circle(63.7% at 63% 50%);
+}
+#get-para{
+   color:black;
+   font-size:16px;
+}
+#abcd{
+height:200px; 
+width:250px;
+position:relative; 
+top:100px; 
+left:282px;
+z-index:1
+}
